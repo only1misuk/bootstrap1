@@ -1,0 +1,128 @@
+
+.header_section{
+background: url(intro-bg.jpg);
+background-size: cover; 
+height: 95vh;
+
+}
+.header_body{
+	width: 100%;
+	height: 95vh;
+	position: relative;
+	
+}
+.header_content {
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+	
+}
+.header_content h1{
+	
+	margin:0;
+	color:white;
+	padding: 10px 0;
+	font-size: 60px;
+}
+.header_content h4{
+
+	margin:0;
+	color:white;
+	padding: 10px 0;
+	font-size: 30px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid white;
+}
+/*start ipad section style*/
+.ipad_section{
+	background: #f8f8f8;
+	padding: 40px 0;
+}
+.ipad_section h1{
+	padding-bottom: 10px;
+}
+/*end ipad section*/
+/*dog section*/
+.dog_section{
+	background: #ffffff;
+	padding: 40px 0;
+}
+.dog_section h1{
+	padding-bottom: 10px;
+}
+/*end dog*/
+/*mobile*/
+.mobile_section{
+	background: #f8f8f8;
+	padding: 40px 0;
+}
+.mobile_section h1{
+	padding-bottom: 10px;
+}
+
+
+/*end mobile*/
+ 
+
+.banner{
+	padding: 100px 0;
+	background:url(banner-bg.jpg);
+	background-size: cover;
+	background-position-y: -206px;
+	
+}
+.banner h2{
+	color:#ffffff;
+	font-size: 30px;
+}
+.footer{
+	background: #f8f8f8;
+	padding: 40px 0;
+	text-align: center;
+}
+/*media query*/
+@media (max-width: 767px) {
+.header_body h1{
+	font-size: 30px;
+	 
+}
+.header_body h4{
+	font-size: 25px;
+	
+}
+.header_body button{
+	display:block;
+	margin:10px 0;
+	margin-left: 65px;
+}
+
+
+	
+
+.dog_section {
+	text-align: center;
+}
+.ipad_section{
+	text-align: center;
+}
+.mobile_section{
+	text-align: center;
+}
+.banner {
+    padding: 100px 0;
+    background: url(banner-bg.jpg);
+    background-size: cover;
+    background-position-y: -298px;
+    background-position-x: -186px;
+}
+.ft_bt{
+	margin-left: 5px;
+
+}
+@media (min-width:768 ) and (min-width:991px ) {
+
+}
+
+/*end media query*/
